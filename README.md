@@ -22,4 +22,4 @@ Run generate_personas.py using the bash script. The arguments can take the follo
 - summarizer_type : ["bart", "flant5", "mmr", "llama"] (llama and mmr are recommended for best performance).
 - persona_id: Any integer from 1 to 10 (inclusive). (Refer to persona_variables.py for more details
 
-Run Command: 'python generate_personas.py <summarizer_type> <persona_id> > Generations/persona_<persona_id>.txt'
+Run Command: `python generate_personas.py <summarizer_type> <persona_id> > Generations/persona_<persona_id>.txt`
