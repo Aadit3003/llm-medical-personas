@@ -2,7 +2,7 @@
 Directed Study completed with Prof. Carolyn Rose at LTI CMU. Link to slides from my [talk](https://docs.google.com/presentation/d/1zlY9s2W3PjoNQGCccn--RVb1SED7rnF-8PxdK2IpguU/edit?usp=sharing).
 
 ## Architecture
-
+![Cascaded summarizer-generator architecture diagram for the medical persona generation pipeline using Llamaa2](https://github.com/Aadit3003/llm-medical-personas/blob/f04bfb5ac348508b179a5a6ffec90bbbfb33259a/logs/Blog.drawio%20(1).png)
 
  ## File Structure
 The files are organized as follows:
