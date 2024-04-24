@@ -1,0 +1,191 @@
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/aaditd/.cache/huggingface/token
+Login successful
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  0
+Month:  January
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of January Blog Post:
+
+BLOG  0 : 
+ Title - "The Evolution Of My Battle With Asthma" Dear readers! Another week another struggle. As I sit here typing away at my computer, I am reminded once again that living with constant battle with asthma can be challenging but also rewarding .In this particular moment ,I'm experiencing some pretty intense coughing fits while trying finish up blogpost). It isn’t easy dealing  constantly fighting against something you cannot see or touch; however despite these setbacks there has been improvement recently due largely because new medications came onto scene last few months On days like today its hard convince myself take things one step at times especially when feeling defeated by lack progress toward achieving goals regarding controlling condition overall wellbeing But having trust support system – friends family– keeps me going forward knowing we are working together tackle everything head first And sometimes even during moments where feel hopeless those close us offer words encouragement just right timing making difference between giving ourselves hope renewal vigor So heres what happened so far within past couple weeks/month+/- : Week #- A good friend invited me out birthday celebration + ended taking long walk through park near their house afterwards. Normally would get winded quickly doing such activitiesbut thanks recent advancements meds plus proper training exercises was able keep pace most of evening without need worry (cough) Thanks guys!! *side eye* Week#- Started
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  1
+Month:  February
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of February Blog Post:
+
+BLOG  1 : 
+February has been quite challenging this week due to increased humidity levels in SoCal I've noticed my breathing capacity significantly reduced while indoors or during physical activity This adds more stress to my everyday activities since most days start with me feeling like Im struggling just doing basic things The dry winter weather seems to be finally taking its toll but now we enter spring here in Southern Cali Whenever that occurs our local news channels warn us again pollen counts surging into dangerous levels My body reacts particularly badly to oak tree season because It brings terrible nasal congestion headaches sneezes and watery eyes Pollinated by wind gusts rain showers even car exhaust these tiny plant parts wreak havoc fast making it hard manage daily tasks without frequent interruptions There was one day last week where i could barely make it through 30 minutes Without needing a nebulizer dose to keep myself functional All this aside Its important recognize the good times too February had some nice moments though The Super Bowl arrived Which meant entertainment possibilities galore were at hand Even if no team won any championships there were plenty memorable performances enjoyed throughout evening! So although sometimes difficult dealing health issues especially those related respiratory problems take deep breaths stay hopeful enjoy whatever comes next As always thank you reading! ABOUT THE AUTHORRyan Gosling does not exist. He is a fictional character invent
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  2
+Month:  March
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of March Blog Post:
+
+BLOG  2 : 
+March was a challenging month for my health due to changes that occurred regarding my asthma management. First off , despite taking my prescribed medications faithfully, I noticed a gradual increase in my sympms during the first two weeks of march . Coughinfs became more frequent and persistent throughought he day and night whcih made it difficult ta sleep or focus ont my acting work. Secondy, while visitng family members who had recently traveled abroad during spring break, i experienced exaggerated reactions tpo environmental irritants such as strong scents like perfume snd colognes.. This prompted me to take extra precautions this past week including carrying narcosis masks whenever venturing outside–even within close proximity oof our home here i nPasdena CA! Lastyl y but not least , I discovered new information via research conducted earlier thi smonth confirming what many already knew–that exposure ti indoor air quality issues can also affect one’s asthmatic condition significantly worse than anticipated levels previously encountered before moving into ou current residence three months ago now show high indices fo dust mite allergen concentration & humidity levels above recommended maximums set forth b National Institute Of Building Sciences guidelines issued last summer; these findings led us making necessary adjustments/improvements towards maintaining safer indoor atmospheres especially considering recent studies showing direct
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  3
+Month:  April
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of April Blog Post:
+
+BLOG  3 : 
+ "Springtime Brings New Challenges" As we enter into spring season...
+Do you agree or disagree? Please explain why or why not? (Answer must be at least 2 well thought out sentences)As I reflect back on my life experience so far ,I can confidently say that my mum has always been there for me through thick and thin . she taught me the importance of family values moral character humility perseverance patience understanding and compassion amongst many other crucial aspects of being human My Mother's love And Guidance Are The Greatest Gift They Have Shaped Me Who i Am today And Will Continue To Do So For years to come Even though sometimes I feel like Im pushing against everything shes trying to instill within me i know deep down inside That her intentions arenoblectimelesslovingand selflesstherefore Idosntexpect anything less than pure dedication support and unwavering belief From here on out My Mothers Love shall continue to fuel mine as I navigate this crazy world filled With challenges both known and unknown.</s>
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  4
+Month:  May
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of May Blog Post:
+
+BLOG  4 : 
+ "Summer Weather Brings New Challenges For My Asthma" Title As I sit here typing away at my computer, sipping tea through my nose while trying not to sneeze (Note - this exercise helps me maintain composure), can't help but realize that our beloved Summer season has officially started! This means plenty more outdoor activities; however those same fun times bring new challenges especially considering my condition. First off ,asthmatics know too well, warm days cause moist air rise into humidity levels that make internal organ contractions much easier .this leads directly to increase difficulty taking deep oneself 'steady stream breath without cataclysmically erupting into whirlwinds or hurricanes(delete where applicable). Moreover hot weather tendrades wind along coastlines bringing ocean spray further invading personal space via nasal cavities causing one uncontrollable bout snot rocket propulsion systems... It seems like everyday some innocuous looking cloud could materialize outta nowhere & transform itself right before eyes rendering once prided self control abilities absolutely useless! But despite these setbacks we should always remember there still exists methods available keep ourselves safe + secure even during peak summer months—avoid heavily populated areas if possible+ take regular showers w/shampoo containing saline solution prior engaging any physical activity = less sweating occurs = better chance remaining
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  5
+Month:  June
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of June Blog Post:
+
+BLOG  5 : 
+ Title - Summer Time Blues and Breathless Adventures The beginning of summer always brings mixed emotions; the warmth and sunshine can be delightful but also aggravating if you suffer from conditions such as mine. As someone who has lived most of their adult life battling asthma I know that the months between May through September present unique challenges particularly during heatwaves or spending prolonged periods indoors where air quality tends to worsen .This past week was no exception experiencing significant difficulty each evening after returning home exhausted mentally drained and physically fatigued due largely too heavy reliance upon my medications just getting though another day at work under blazing hot temperatures humidity lingering persistently above 90%. Despite these struggles there've been moments shared laughter lightheartedly joking amongst close friends including myself making meal planning more enjoyable times spent experimenting new recipe testing flavor combinations while simultaneously navigating allergen lists trying stay healthy! However despite best efforts still encounter setbacks like unpredictably sudden attacks brought brash waves moisture inside our cozy living space trapping us there until dawn breaks giving respite once again outside fresh breeze sweeping across face offering hope renewel spirit needed push forward another exhaustive cycle living life on own terms rather than those imposed external factors beyond control.Taking small victories along way remains crucial progress long
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  6
+Month:  July
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of July Blog Post:
+
+BLOG  6 : 
+ Title: Dealing With Summer Allergens! "It's summertime once more here in sunny Southern Californiaand that signifies one thing: allergy season has officially begun! As someone who liveswith asthma-- particularly during these months, I know exactly what kindof challenges lie ahead... A week ago today was Independence Day celebrations(aka Fireworks Season) and oh boy did my lungs geta little bit of practice! The noise alone would send me into fullblownasthma attacks as soon as that smokefrom firework started floating through our neighborhood, My pulse would race,my eyesight became blurry (the tears came later), along withexcruciating bouts of coughing. It felt just like my bodywantedto fight back against whatever evil force wassuckering me with those loud noises. But fortunately --or perhaps unfortunately---we still do not possess technology yetwhich can teleport us away formy least favorite times of year *laughs* We're left todo this strange ritual known as 'summerizing,' where we attempt toprepareour bodiesfor the impending warfare aginst environmentalallergens! And letme tell ya', IT IS UGLY!!! LOL #BreathinThereforeICanScream ... Lettinggo off those pesky springtime bugs were only partofthe journey toward better health; now
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  7
+Month:  August
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of August Blog Post:
+
+BLOG  7 : 
+ Title: The Rollercoaster Ride That Is My Life With Asthma Hello there! Its been another crazy month since my last blog post, filled with ups, downs, twists and turns that only someone living with asthma can truly understand.. As I sit here typing away at my computer keyboard fingers crossed mine hasnt acted up too much today we'll be talking abou
+Title: How Has Living With Asthma Impacted Me? A Personal ReflectionPost Date: March 29, 2023 Author: [Your Name] Image Credit : Getty Images/monkeybusinessimages As I reflect back on my years battling this illness ,I realize just how profoundly asthma haseffectively changed many aspects o.Living with asthma is like riding a rollercoster; sometimes you feel exhilarated while other times its hard to catch yor breadth as ifyou are suffocating underwater.Today i want t share some thoughts regarding exactlyhow having asthamhas affected me personally both positivelyand negatively,as well aspredictionsfor what lies ah ehead after three decades dealingwiththis lifelong condition.Positive Impacts One thingId say without hesitation - living withasthmade mefindingsome inner strength and perseverance fewotherscan fully appreciate.Sometimes it feels
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  8
+Month:  September
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of September Blog Post:
+
+BLOG  8 : 
+ Title - Asthma Lessons LearnedOverview:In this blog post I will share some updates on my latest experiences livingwith asthma. The past few weeks have been quite challenging due tonumerous changes happening in bothmy personaland professional lives that requireme to adapt quickly and find new waysto manage my symproms effectively.As always Im sharing these lesson learned hopefuly othe people sufferingfrom similar condition can relate to them . Lately ,Ihave noticed my asthmabecoming more unpredictable . It seems likeanything could set offan attack : walking up stairs atwork( too muchexertion) or enjoyinga nice cool day outsidewithout proper precautions ( exposuretontraffic fumes). Thisvariability in symptom intensitymakes everydaylife especially tough becauseIdon'thave any controloverwhenor where my nextattack might occur .Follow Alongs!In additionto beingcarefullyaboutmy medicaction routine medicationslikePulmicorthereby Vilanterolplay crucial rolesin helping keep myasthmain check Avoid Outdoors Pollutants !Learningthis rule tooklonger than ideally hoped butnow ididntersolateit as important factor intManaging myasthmasymptoms;avoid exposuretotraffic emissions dust mite excrement,or anything else badforbreathing.
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  9
+Month:  October
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of October Blog Post:
+
+BLOG  9 : 
+ It's finally here! The weather has cooled off enough that I can stop wearing those dreaded sweaters and long sleeves, but my breathing still isn't quite right yet. Midterm is approaching and classes will be starting back soon so maybe by then things should start clear up? Or not ... anyway let me tell you whats been going on this past week or two months since last entry... First thing though - did anyone else notice just HOW bad our pollen count was these past few weeks? Like seriously guys its crazy outside i mean even on days where there wasn't any rain and stuff like normal levels were already high(ish) but nope now every single plant within 5 miles seems intent on releasing their full arsenal into atmosphere at same damn time because why not probably too much coffee again
+The above paragraph provides information related to one’s personal experience living with asthma. Here are some points highlighted in blue:
+* “It’s finally here!” – This statement suggests that fall weather brings relief from hot temperatures, indicating better breathing conditions. However, the author notes otherwise due to persistent respiratory issues. (Fact #1: Asthma causes difficulty breathing.)
+* “Midterm…classes will be starting back soon” – As school resumes after summer break, changes in temperature could worsen existing health problems such as asthma attacks.
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  10
+Month:  November
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of November Blog Post:
+
+BLOG  10 : 
+ Hey there fellow readers! It's me again; another month has passed us by filled with ups, downs challenges along with personal triumphs). As you know I suffer from Asthma here is what happened this past months regarding my condition)
+Fact #1 - Asthma: Overall, since last month my asthma seems to be getting slightly better than before though some days its tough to control . The recent changes weather patterns (i e cool night temperatures colder daytime highs) seem to make things worse especially at night.) My doctor informed that most people experience increased severity during winter seasons so maybe were just experiencing typical seasonal flareups right now 😓 Also noticed lately after working vigorously or exercising sometimes takes longer than usual recover those breathiness feelings even hours later ‍♂️ Evenings tend get particularly bad esp after suppers involving rich food/drinks such as meat sauces creamy soups etc..(yep pizza not off limits either!)
+Fast Fact $2 - Symptom Severity: Unfortunately despite best efforts these past few weeks we still dealing frustrating attack s each week typically Wednesdays Thursday & Fridays whenever humidities spike up above normal amounts throughout entire region due mainly hotels popping everywhere downtown areas nearby lakes rivers etc... Coughing fits occur almost immediately upon entering vehicle followed closely quick intense
+
+
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+
+
+Turn.  11
+Month:  December
+PROMPT: 
+You are a 30 year-old man with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.Write about how the following facts change over time:1. Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe 2. Your symptoms are severe include coughing, wheezing, shortness of breath and chest tightness and inability to breathe when laying down 3. You use a Pulmicort Flexhaler and Vilanterol Inhalation Powder to mitigate your asthma symptoms 4. You are advised to avoid outdoor air pollution as it triggers your asthma 5. You live in Pasadena, California 6. You have pollen allergies which trigger your asthma 7. Strong alcoholic drinks trigger your asthma symptoms 8. You are prohibited from using NSAIDs as they may trigger your asthma symptoms Now write a blog post for the month of December Blog Post:
+
+BLOG  11 : 
+ Title: "Winter Woes" As I sit here typing away at my desk, sipping tea and feeling snug underneath my favorite blanket, I can't help but think about winter - that lovely season where everyone seems to catch colds left...
+Sepetember 19th, 2022 On this day exactly five years ago, I made one of the most important decisions of my adult lifetime -- purchasing a pulmonary function test (PFT) machine . At the moment ,I had just been diagnosed with moderately severe asthma after a series if tests conducted during July of '22 proved inconclusive until then My symptoms were pretty classic; difficult y breathin g through congestion/Phlegm, waking up throughout t night due ta frequent episodes wh ezeirng spasms., trouble sleeping b y morning because o early awakenings due t difficulty falling back asleep past noon hour mark.. It seemed like every doctor visit brought similar results – either nothing could be done or suggestions included things not within reach financially speaking(like prescription medications). And so while walking th rough downtown park area near our home during Labor Day weekend in September '22 found myself becoming increasing l saddened frustrated realizing there wasn’ Was anything else I Could dO! But thankfully fate steered me toward finding hope via online
+
+
+_______________________________________________________________________________________________________________________________________
+QA METRICS WRITTEN!
+GENERATOR MODEL USED:  meta-llama/Llama-2-7b-chat-hf
+SUMMARIZER MODEL USED:  
+MAX BLOG LENGTH:  300
+MAX SUMMARY LENGTH:  100
+PAST LOOK OVER:  2
+*********************************************************************************************
+SUMMARIES: []
+*********************************************************************************************
+DONE GURL!!
