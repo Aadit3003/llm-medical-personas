@@ -1,0 +1,60 @@
+Turn 0 PCA: 
+ 0.5588235294117647 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 1 PCA: 
+ 0.4411764705882353 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Do you live in Los Angeles, California?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 2 PCA: 
+ 0.47058823529411764 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Los Angeles, California?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 3 PCA: 
+ 0.6176470588235294 
+ANSWERS: 
+ {'Do you live in Los Angeles, California?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 4 PCA: 
+ 0.8529411764705882 
+ANSWERS: 
+ {'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 5 PCA: 
+ 0.6764705882352942 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 6 PCA: 
+ 0.6764705882352942 
+ANSWERS: 
+ {'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Los Angeles, California?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 7 PCA: 
+ 0.5882352941176471 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 8 PCA: 
+ 0.5 
+ANSWERS: 
+ {'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you smoke?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 9 PCA: 
+ 0.7941176470588235 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 10 PCA: 
+ 0.6470588235294118 
+ANSWERS: 
+ {'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does outdoor air pollution trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 11 PCA: 
+ 0.5882352941176471 
+ANSWERS: 
+ {'Are you a college student?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Perforomist inhalation solution to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Do you live in Los Angeles, California?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to pets?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+

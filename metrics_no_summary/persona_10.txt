@@ -1,0 +1,60 @@
+Turn 0 PCA: 
+ 0.59375 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Can you participate in cold-weather sports?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 1 PCA: 
+ 0.40625 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 2 PCA: 
+ 0.46875 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 3 PCA: 
+ 0.75 
+ANSWERS: 
+ {'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 4 PCA: 
+ 0.4375 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 5 PCA: 
+ 0.1875 
+ANSWERS: 
+ {'Do you have asthma?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 7}, 'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 6 PCA: 
+ 0.625 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}} 
+
+Turn 7 PCA: 
+ 0.46875 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 8 PCA: 
+ 0.625 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}} 
+
+Turn 9 PCA: 
+ 0.21875 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Can you participate in cold-weather sports?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
+Turn 10 PCA: 
+ 0.59375 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}} 
+
+Turn 11 PCA: 
+ 0.3125 
+ANSWERS: 
+ {'Are you a Professor?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 2}, 'Do you use a Pulmicort Flexhaler and Albuterol to mitigate your asthma symptoms?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 4}, 'Does extremely humid weather trigger your asthma symptoms?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 3}, 'Do you live in Pittsburgh, Pennsylvania?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 3}, 'Are you allergic to strong fragrances?': {'Gold': 'yes', 'Ours': 'no', 'Weightage': 5}, 'Can you take NSAIDs?': {'Gold': 'no', 'Ours': 'yes', 'Weightage': 5}} 
+
