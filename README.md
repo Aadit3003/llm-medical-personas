@@ -42,6 +42,6 @@ talk_slides.pdf - The slides to my presentation on this study.
  ## Run Commands
 Run generate_personas.py using the bash script. The arguments can take the following values:
 - summarizer_type : ["bart", "flant5", "mmr", "llama"] (llama and mmr are recommended for best performance).
-- persona_id: Any integer from 1 to 10 (inclusive). (Refer to [persona_variables.py](https://github.com/Aadit3003/llm-medical-personas/blob/9b057ab3556329284584082586a802529eeff508/persona_variables.py) for more details)
+- persona_id: Any integer from 1 to 10 (inclusive). (Refer to [persona_variables.py]([https://github.com/Aadit3003/llm-medical-personas/blob/9b057ab3556329284584082586a802529eeff508/persona_variables.py](https://github.com/Aadit3003/llm-medical-personas/blob/cd27ca3a7364128f2de13477cfafb117b3676023/persona_variables.py)) for more details)
 
 Run Command: `python generate_parametric_persona_blog_posts.py <summarizer_type> <persona_id> > persona_<persona_id>.txt`
