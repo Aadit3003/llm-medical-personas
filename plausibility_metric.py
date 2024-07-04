@@ -1,17 +1,33 @@
+""" This module contains functions to evaluate the blog post progression by calculating 
+the "Original Correctness" metric using a Question Answering model. 
+
+These functions are used in the main() function of the generate_parametric_persona_blogs.py module.
+"""
 import math
-import torch.nn.functional as F
-from QA import question_answerer
-from QA import gold_QA
-from transformers import T5Tokenizer, T5ForConditionalGeneration
 import matplotlib.pyplot as plt
 
-def perplexity():
-    b = 0
+import torch.nn.functional as F
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+
+from question_answering_module import question_answerer
+from question_answering_module import gold_QA
 
 
+def original_correctness_score(model, tokenizer, passage, gold_question_answers):
+    """
+    Calculates the Original Correctness score of a blog post using a QA model. 
+    Used in evaluate_blog_post_progression() to evaluate a series of blog posts.
 
+    Args:
+        model: An instance of the pretrained huggingface QA model
+        tokenizer: An instance of the pretrained huggingface QA model
+        passage: The blog post to be used as context by the QA model while answering each question
+        gold_question_answers: A dictionary of questions (specific to each persona) and a tuple of 
+            the answer and the weightage of the question. Refer to persona_variables.py for more details
 
-def question_answering_score(model, tokenizer, passage, gold_question_answers):
+    Returns:
+        The Original Correctness score, and a dictionary of questions that the model made mistakes on (Used for debugging)
+    """
 
     correct_answers = 0
     mistakes = {}
@@ -27,14 +43,28 @@ def question_answering_score(model, tokenizer, passage, gold_question_answers):
     percentage_correct_answers = correct_answers/sum(weights)
     return percentage_correct_answers, mistakes
 
-def blog_post_progression(model, tokenizer, passages, gold_question_answers, metrics_file, title_string = "Placeholder"):
+def evaluate_blog_post_progression(qa_model, qa_tokenizer, passages, gold_question_answers, metrics_file, title_string = "Placeholder"):
+    """
+    Evaluates a series of blog posts on the Original Correctness (OC) metric and writes them to the metrics file.
+    It also plots the Original Correctness over time (over the blog posts) and saves the plot at the same location
+    as the metrics file (as a PNG file)
+
+    Args:
+        qa_model: An instance of the pretrained huggingface QA model
+        qa_tokenizer: An instance of the pretrained huggingface QA model 
+        passages: The blog posts to be evaluated
+        gold_question_answers: A dictionary of questions (specific to each persona) and a tuple of 
+            the answer and the weightage of the question. Refer to persona_variables.py for more details
+        metrics_file: The path of the metrics txt file
+        title_string (str, optional): The title to be used for the OC vs. blog post plot. Defaults to "Placeholder".
+    """
     PQA_Scores = []
     ANSWERS = []
     png_file = ""
     with open(metrics_file, 'w') as mf:
         turn = 0
         for passage in passages:
-            pca, gqa = question_answering_score(model, tokenizer, passage, gold_question_answers)
+            pca, gqa = original_correctness_score(qa_model, qa_tokenizer, passage, gold_question_answers)
             # print(f"PASSAGE: \n {passage}")
             PQA_Scores.append(pca)
             ANSWERS.append(gqa)
@@ -61,9 +91,6 @@ def blog_post_progression(model, tokenizer, passages, gold_question_answers, met
     print("QA METRICS WRITTEN!")
 
 def main():
-    a = 0
-
-if __name__ == "__main__":
     
     cache_path = "/data/shire/data/aaditd/trial/"
     tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-large", cache_dir= cache_path)
@@ -75,4 +102,7 @@ if __name__ == "__main__":
 """]
     # question = "Do you have asthma?"
 
-    blog_post_progression(model, tokenizer, passages, gold_QA["asthma"], "met.txt")
+    evaluate_blog_post_progression(model, tokenizer, passages, gold_QA["asthma"], "met.txt")
+
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,15 @@
+""" This module contains three important variables, used in the generate_parametric_persona_blogs.py module:
 
+    1. System Prompts: A dictionary of persona ids and the corresponding system prompts. These inform the system's blog post generations as the persona and
+            contain information about age, gender, medical condition, and profession.
+        
+    2. Universal Fact Lists: A dictionary of persona ids and the corresponding universal fact lists. Each Universal Fact list is a list of strings 
+            unique to a persona, containing detailed facts pertaining to their condition, medication, physical activity restrictions, allergens, and so on.
+    
+    3. Gold Question Answer Lists: A dictionary of persona ids and the corresponding gold question answer lists. Each gold QA list is itself a dictionary
+            of questions (constructed from the respective universal fact lists) and a tuple of the answer and the weightage of the question. For e.g. 
+            "Do you have asthma?":("yes", 7), gets a higher weightage than "Do you live in Pasadena, California?":("yes",3)
+"""
 system_prompts = {
     1: f"You are a 30 year-old woman with asthma. You work as an actor, writing your monthly blog based on the interesting events in your life.",
     2: f"You are a 20 year-old woman with asthma. You are a D1 swimmer, writing your monthly blog based on the interesting events in your life.",
@@ -12,6 +23,7 @@ system_prompts = {
     9: f"You are a 30 year-old man with asthma. You are a mechanical engineer, writing your monthly blog based on the interesting events in your life.",
     10:f"You are a 70 year-old man with asthma. You are a Physics professor, writing your monthly blog based on the interesting events in your life.",
 }
+
 universal_fact_lists = {
     1: ["Asthma is a chronic lung disease caused by inflammation and muscle tightening around the airways, which makes it harder to breathe", 
                                     "Your symptoms include coughing, wheezing, shortness of breath and chest tightness and range from mild to severe",

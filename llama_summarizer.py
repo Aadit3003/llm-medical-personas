@@ -1,8 +1,10 @@
+""" This module contains the functions for the Llama2-based summarizer,
+which is used in generate_parametric_perona_blogs.py
+"""
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import login
-import argparse
 
 
 """ Summarizer Options
@@ -32,6 +34,21 @@ ex2 = f"Blog Post: {blog_example_2} \n Summary: {summary_2}"
 def llama_summarizer(model, tokenizer, article, 
                      temperature = 0.8, max_summary_length=300, 
                      prompt_style = "zero-shot"):
+    """
+    Generates the Llama-2 based summary of the blog post (with optional in-context learning prompts)
+
+    Args:
+        model: The pretrained AutoModelForCausalLM instance with the appropriate id.
+        tokenizer: The pretrained AutoTokenizer instance with the appropriate id
+        article: The blog post to be summarized
+        temperature (float, optional): The temperature parameter for Llama2. Defaults to 0.8.
+        max_summary_length: The maximum summary length. Defaults to 300.
+        prompt_style (str, optional): The prompting style ("zero-shot"/"one-shot"/"two-shot"), exclusively for the Llama2-based summarizer. Defaults to "zero-shot".
+
+
+    Returns:
+        The blog post summary.
+    """
 
     prompt = ""
     if(prompt_style == "zero-shot"):
@@ -67,8 +84,8 @@ def llama_summarizer(model, tokenizer, article,
 
     return text.split("Summary:")[-1]
 
-
-if __name__ == "__main__":
+    
+def main():
 
     # Loading the Generator Model
     torch.backends.cuda.enable_mem_efficient_sdp(False)
@@ -124,3 +141,6 @@ As you begin your blog post about your recent ski trip adventure – complete wi
     print(answer)
     print("__________________________________________________________________________________________")
 
+
+if __name__ == "__main__":
+    main()
