@@ -19,20 +19,29 @@ Directed Study completed with Prof. Carolyn Rose at LTI CMU. Link to slides from
 
  ## Directory Structure
 The files are organized as follows:
-- generate_personas.py :- Main script which generates the personas and summaries using Llama2-7b-chat-hf and a summarizer model of the user's choice.
-- llama_summary.py :- Abstracts the llama summarization function using zero-shot and few-shot prompts for Llama2-7b-chat-hf.
-- mmr.py :- Abstracts the Maximal Marginal Relevance summarization function.
-- persona_variables.py :- Contains ten distinct parametric medical personas to micro-average metrics across.
-- metric.py :- Contains the "Original Precision" metric calculation function using flant5-large as a QA model.
-- QA.py :- Abstracts the QA function used in metric.py
-- Generations_MMR_Summary :- Examples of long-form multi-turn generation using our architecture with MMR summarization.
-- Generations_No_Summary :- Examples of long-form multi-turn generation without using our architecture.
-- Metrics_No_Summary :- The Original precision metric for 10 personas (generated without summaries)
-- logs :- Logs from previous runs.
+
+* **generations_mmr_summary** - Examples of long-form multi-turn generation using our architecture with MMR summarization. Contains 10 txt files with the blog post generations corresponding to the 10 personas.
+* generations_no_summary - Examples of long-form multi-turn generation without using our architecture.
+* metrics_no_summary - The Original precision metric for 10 personas (generated without summaries)
+* logs - Logs from previous runs.
+* old_blog_generation_code - Previous versions of the generate_parametrics_persona_blog_posts.py script which allows for customization of parameters like condition/blog length/past look over/time frame and so on. 
+
+**generate_parametric_persona_blog_posts.py** - Main script which generates the personas and summaries using llama2-7b-chat-hf and a summarizer model of the user's choice. \
+**persona_variables.py** - Contains ten distinct parametric medical personas to micro-average metrics across. 
+
+_llama_summarizer.py_ - Abstracts the llama summarization function using zero-shot and few-shot prompts for llama2-7b-chat-hf. \
+_mmr_summarizer.py_ - Abstracts the Maximal Marginal Relevance summarization function for the blog posts. \
+_summarizer_module.py_ - Abstracts the BART and Flan-T5 summarization function for the blog posts. 
+
+question_answering_module.py - Abstracts the QA function used in metric.py \
+**plausibility_metric.py** - Contains the "Original Correctness" metric calculation function using flant5-large as a QA model. 
+
+report.pdf - The report containing details about experimental design and results. \
+talk_slides.pdf - The slides to my presentation on this study.
 
  ## Run Commands
 Run generate_personas.py using the bash script. The arguments can take the following values:
 - summarizer_type : ["bart", "flant5", "mmr", "llama"] (llama and mmr are recommended for best performance).
 - persona_id: Any integer from 1 to 10 (inclusive). (Refer to [persona_variables.py](https://github.com/Aadit3003/llm-medical-personas/blob/9b057ab3556329284584082586a802529eeff508/persona_variables.py) for more details)
 
-Run Command: `python generate_personas.py <summarizer_type> <persona_id> > Generations/persona_<persona_id>.txt`
+Run Command: `python generate_parametric_persona_blog_posts.py <summarizer_type> <persona_id> > persona_<persona_id>.txt`
