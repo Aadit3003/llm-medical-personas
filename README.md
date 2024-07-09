@@ -52,6 +52,7 @@ _summarizer_module.py_ - Abstracts the BART and Flan-T5 summarization function f
 question_answering_module.py - Abstracts the QA function used in metric.py \
 **plausibility_metric.py** - Contains the "Original Correctness" metric calculation function using flant5-large as a QA model. 
 
+environment.txt - Explicitly lists all the packages (with versions) in the virtual environment. \
 report.pdf - The report containing details about experimental design and results. \
 talk_slides.pdf - The slides to my presentation on this study.
 
