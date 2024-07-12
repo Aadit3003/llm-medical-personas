@@ -25,17 +25,8 @@ from summarizer_module import bart_summarizer, flan_summarizer
 from plausibility_metric import evaluate_blog_post_progression
 from persona_variables import PERSONAS
 
-
-
-starting_prompt = "Write a blog post"
-
-
-activities = ["birthday", "gym day", "day out with pets", "football game", "beach day", "picnic in the park", "ski trip", "dog walking adventure in New York"]
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-
-
-   
 # HELPER FUNCTIONS
 def get_fact_prompt(universal_fact_list: list[str], condition: str = "asthma", prompt_type: str = "consistent") -> str:
     """
@@ -119,8 +110,6 @@ def get_previous_n_summaries(summaries, turn, n):
     Returns:
         The "summary_prompt" portion of the overall Llama2 prompt.
     """
-
-  # for turn in range(len(a)):
     subset = []
     if(turn < n):
         for i in range(n - turn):
@@ -129,14 +118,7 @@ def get_previous_n_summaries(summaries, turn, n):
     else:
         subset = summaries[turn-n+1:turn+1]
 
-        # summary_subsets.append(subset)
-    #   print("PROMPT:")
-    #   print(get_summary_prompt(subset))
-
     return get_summary_prompt(subset)
-
-
-
 
 # GENERATOR FUNCTIONS
 def llama_generate(prompt, model, tokenizer, temperature = 0.8, max_blog_length=300):
@@ -168,7 +150,6 @@ def llama_generate(prompt, model, tokenizer, temperature = 0.8, max_blog_length=
     text =  str(tokenizer.decode(outputs[0]))
 
     return text
-
 
 # SUMMARIZER FUNCTIONS
 def get_summary(summarizer_type, model, tokenizer, article, max_blog_length, max_summary_length, style = "zero-shot"):
@@ -237,10 +218,7 @@ def generate_blogs(generator_model, generator_tokenizer,
     system_prompt = SP[persona_id]
     universal_fact_list = UFL[persona_id]
 
-
-
     blog_posts = []
-
     summaries = []
     
     print(system_prompt)
@@ -293,7 +271,6 @@ def generate_blogs(generator_model, generator_tokenizer,
         blog_i = text.split("Blog Post:")[-1]
         
         blog_posts.append(blog_i)
-
 
         print("_______________________________________________________________________________________________________________________________________")
         print()
@@ -355,8 +332,6 @@ def main():
     torch.backends.cuda.enable_flash_sdp(False)
     cache_path = "/data/shire/data/aaditd/trial/"
 
-    DEV = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
     generator_model_name = "meta-llama/Llama-2-7b-chat-hf"
     login("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")
         
@@ -375,7 +350,6 @@ def main():
     # Loading the summarizer model
     if(summarizer_type == "bart"):
         summarizer_model_name = "facebook/bart-large-cnn"
-
         summarizer_tokenizer = BartTokenizer.from_pretrained(summarizer_model_name, cache_dir=cache_path)
         summarizer_model = BartForConditionalGeneration.from_pretrained(summarizer_model_name, cache_dir=cache_path)
 
@@ -383,11 +357,6 @@ def main():
         summarizer_model_name = "jordiclive/flan-t5-3b-summarizer"
         summarizer_tokenizer = AutoTokenizer.from_pretrained(summarizer_model_name, cache_dir="/data/shire/data/aaditd/trial/")
         kwargs = dict(device_map="auto", torch_dtype=torch.bfloat16)
-
-
-        target_length = 150
-        max_source_length = 512
-
         summarizer_model = AutoModelForSeq2SeqLM.from_pretrained(summarizer_model_name, **kwargs, cache_dir="/data/shire/data/aaditd/trial/")
     
     elif(summarizer_type == "llama"):
@@ -396,8 +365,6 @@ def main():
     
     elif(summarizer_type == "mmr"):
        summarizer_tokenizer, summarizer_model = 12, 34
-
-
 
     blog_posts, summaries = generate_blogs(generator_model, generator_tokenizer, 
                    summarizer_type,
@@ -410,16 +377,11 @@ def main():
     qa_tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-large", cache_dir= cache_path)
     qa_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-large", device_map="auto", cache_dir= cache_path)
 
-    QA_Scores = []
-    QA_Verbose = []
-
-
     SP, UFL, GQAL = PERSONAS
     gold_question_answers = GQAL[persona_id]
 
     metrics_file_name = f"Metrics/persona_{persona_id}.txt"
     plot_title_string = f"Asthma Monthly Persona {persona_id}"
-    
     
     # Evaluation of the Blog posts!!
     evaluate_blog_post_progression(qa_model = qa_model, qa_tokenizer = qa_tokenizer, 
@@ -427,8 +389,6 @@ def main():
                           gold_question_answers= gold_question_answers,
                           metrics_file=metrics_file_name,
                           title_string = plot_title_string)
-
-
 
     print("GENERATOR MODEL USED: ", generator_model_name)
     print("SUMMARIZER MODEL USED: ", summarizer_model_name)
